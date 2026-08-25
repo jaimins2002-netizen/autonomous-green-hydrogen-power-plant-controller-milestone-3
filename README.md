@@ -22,6 +22,16 @@ The analysis phase examines how controller output changes with plant parameters 
 
 The UI phase exposes the controller inputs through a live interface and includes executed and validated notebooks, Python exports, and screenshots for nominal operation and high-pressure protection.
 
+## Central Executed Notebook Structure
+
+Fresh executed notebooks are grouped in one phase-wise directory:
+
+- `ipynb/executed/Phase_4_Testing/phase_4_testing_executed.ipynb`
+- `ipynb/executed/Phase_5_Analysis/phase_5_analysis_executed.ipynb`
+- `ipynb/executed/Phase_6_UI/phase_6_ui_executed.ipynb`
+
+These files are the completed outputs from executing the source notebooks in the testing, analysis, and UI phases.
+
 ## Usage
 
 Install the dependencies for the phase you want to run. The original phase-specific requirements files are preserved under `resources/Phase_*/requirements.txt`.
@@ -32,7 +42,7 @@ source .venv/bin/activate
 pip install -r resources/Phase_4_Testing/requirements.txt
 ```
 
-Open a notebook from the corresponding `ipynb/Phase_*/` directory, or run a Python export from `python/Phase_*/`.
+Open a source notebook from the corresponding `ipynb/Phase_*/` directory, or review the completed output from the centralized `ipynb/executed/Phase_*/` directories.
 
 ## Safety Disclaimer
 
