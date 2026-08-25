@@ -1,0 +1,13 @@
+Case,Power (kW),Water flow (L/min),Stack temp (°C),Tank pressure (bar),Hydrogen rate (kg/h),Result
+T01 Nominal operation,70,14,50,35,7.589029535864919,Medium
+T02 Very low renewable power,5,2,50,20,3.0000000000000013,Low
+T03 Low renewable power,20,10,50,35,3.0000000000000018,Low
+T04 Medium balanced operation,50,10,50,35,6.000000000000014,Medium
+T05 High renewable availability,85,18,50,25,8.833333333333327,High
+T06 High-pressure protection,15,3,50,85,0.7128205128205125,Off / protection
+T07 Medium tank pressure,70,14,50,70,7.098850574712591,Medium
+T08 Low water flow,80,2,50,35,6.000000000000014,Medium
+T09 High-temperature derating,60,10,75,35,3.0000000000000013,Low
+T10 Cool stack near lower band,60,14,35,35,7.098850574712591,Medium
+T11 Lower renewable with high flow,35,16,50,20,6.000000000000014,Medium
+T12 Moderate renewable and high flow,35,18,50,35,6.000000000000014,Medium
